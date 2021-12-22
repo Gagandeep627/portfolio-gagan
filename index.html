@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal-Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="icon" type="image/x-icon" href="img/icon.png" id="fav-img">
+
+</head>
+
+
+<header class="header">
+
+    <div class="top">
+
+        <div class="section-1">
+
+            <!-- <img src="" alt="" srcset=""> -->
+            <img src="img/1.jpg" alt="">
+            <span>Personal Portfolio</span>
+
+
+        </div>
+
+        <div class="section-2">
+            <ul class="section-2-list">
+                <button type="button" id="li-main" class="section-2-list-li bg-love"><img src="img/lv.jpg" alt="" id="li-main-img" ></button>
+                
+                <!-- <li class="section-2-list-li"><button type="button" id="li-main">View in Editor</button></li>
+                <li class="section-2-list-li"><button type="button" id="li-main">sign up</button></li>
+                <li class="section-2-list-li"><button type="button" id="li-main">Log in</button></li> -->
+            </ul>
+
+
+        </div>
+
+
+
+    </div>
+
+    <div class="top-next">
+
+        <ul>
+
+            <li><a href="#main-1-h">About</a></li>
+            <li><a href="#article-h">Work</a></li>
+            <li><a href="#contact-page">Contact</a></li>
+        </ul>
+
+
+    </div>
+
+
+
+
+
+</header>
+
+<body>
+    <!-- <section class="main-1"> -->
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyDDMMAurrPWtMt_cfAsvSKOe2WFkcCFu-g",
+            authDomain: "portfolio-gagan.firebaseapp.com",
+            projectId: "portfolio-gagan",
+            storageBucket: "portfolio-gagan.appspot.com",
+            messagingSenderId: "71845739990",
+            appId: "1:71845739990:web:c479819461f007724eb877"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+    </script>
+
+    <div id="main-1-h">
+        <h3>I am Gagan</h3>
+        <p>a Web Developer</p>
+    </div>
+
+
+    <!-- </section> -->
+
+    <!-- one article for projects page -->
+
+    <div id="articles">
+
+        <h4 id="article-h">
+
+            These are some of my projects
+        </h4>
+
+        <div class="article-items">
+
+            <a href="https://github.com/Gagandeep627/spotify-clone" target="_blank" class="article-item">
+                <img src="img/2.jpg" alt="" id="image">
+
+                <p id="idpara"><span class="code">&lt;</span>spotify-clone<span class="code">/&gt;</span></p>
+
+            </a>
+
+            <a href="https://github.com/Gagandeep627/chess-game" target="_blank" class="article-item">
+                <img src="img/3.jpg" alt="" id="image">
+                <p id="idpara"><span class="code">&lt;</span>chess game<span class="code">/&gt;</span></p>
+            </a>
+
+            <a href="https://github.com/Gagandeep627/zira_virtual_assistance" target="_blank" class="article-item">
+                <img src="img/4.jpg" alt="" id="image">
+                <p id="idpara"><span class="code">&lt;</span>virtual assistant<span class="code">/&gt;</span></p>
+            </a>
+
+            <a href="https://github.com/Gagandeep627/Blog-Template-2" target="_blank" class="article-item">
+                <img src="img/5.jpg" alt="" id="image">
+                <p id="idpara"><span class="code">&lt;</span>blog page<span class="code">/&gt;</span></p>
+            </a>
+
+            <a href="https://github.com/Gagandeep627/minivideo" target="_blank" class="article-item">
+                <img src="img/6.jpg" alt="" id="image">
+                <p id="idpara"><span class="code">&lt;</span>video js-project<span class="code">/&gt;</span></p>
+            </a>
+
+            <a href="https://github.com/Gagandeep627/food-orderig-website" target="_blank" class="article-item">
+                <img src="img/7.jpg" alt="" id="image">
+                <p id="idpara"><span class="code">&lt;</span>food order menu js-project<span class="code">/&gt;</span>
+                </p>
+            </a>
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+        <div id="article-btn">
+
+            <a href="https://github.com/Gagandeep627?tab=repositories" target="_blank">
+
+                <button type="button" onclick="alert('click to view my all repositories.')" id="articles-btn">show
+                    all</button>
+
+            </a>
+
+        </div>
+
+
+
+    </div>
+
+
+    <div id="contact-page">
+
+        <h3 id="article-h2">Let's work together...</h3>
+        <p id="idpara2">How do you take your coffee?</p>
+
+        <div id="contact-items">
+            <ul id="contact-items-ul">
+                <li id="contact-items-li"><a href="https://github.com/Gagandeep627" class="contact-links"
+                        target="_blank">
+
+                        <img src="img/git.jpg" alt="" srcset="" class="contact-links-img">
+                        <p class="contact-links-text">Github</p>
+
+
+                    </a></li>
+                <li id="contact-items-li"><a href="https://www.facebook.com/profile.php?id=100014184910610"
+                        class="contact-links" target="_blank">
+                        <img src="img/fb.jpg" alt="" srcset="" class="contact-links-img">
+                        <p class="contact-links-text">facebook</p>
+                    </a></li>
+                <li id="contact-items-li"><a href="https://www.linkedin.com/in/gagandeep-singh-3868431b4/"
+                        class="contact-links" target="_blank">
+                        <img src="img/in.jpg" alt="" srcset="" class="contact-links-img">
+                        <p class="contact-links-text">linkedin</p>
+                    </a></li>
+                <li id="contact-items-li"><a href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+                        class="contact-links" target="_blank">
+                        <img src="img/gmial.jpg" alt="" srcset="" class="contact-links-img">
+                        <p class="contact-links-text">send a mail</p>
+                    </a></li>
+                <li id="contact-items-li"><a href="https://duo.google.com/" class="contact-links" target="_blank">
+                        <img src="img/phonr.jpg" alt="" srcset="" class="contact-links-img">
+                        <p class="contact-links-text">Call Me</p>
+                    </a></li>
+
+
+
+
+
+            </ul>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <footer id="footer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, quasi.</p>
+        <p style="    display: flex;
+        justify-content: center;
+        align-items: center;">© Created for freeCodeCamp <span><a href="index.html" target="_blank"><img
+                        src="img/1.jpg" alt="" id="footer-img"> </a></span></p>
+        <!-- <span><img src="img/1.jpg" alt="" id="footer-img"></span> -->
+
+
+
+    </footer>
+
+
+</body>
+
+
+
+
+</html>

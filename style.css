@@ -1,0 +1,433 @@
+
+
+*{
+
+    /* background-color: antiquewhite; */
+    padding: 0%;
+    margin: 0%;
+    box-sizing: inherit;
+}
+
+
+.header{
+    position: fixed;
+    width: 100%;
+    /* margin: 0%; */
+}
+
+
+.section-1 img{
+
+
+    
+    width: 145px;
+
+    height: 103px;
+    border-radius: 67px;
+}
+
+.section-1{
+
+    background-color: black;
+    height: 108px;
+    display: flex;
+    align-items: center;
+    
+
+
+
+}
+
+.section-1 span{
+
+    color: white;
+    background-color: black;
+    margin-left: 25px;
+    font-size: larger;
+    font-family: cursive;
+}
+
+.top{
+
+    display: flex;
+    background-color: black;
+    /* position:sticky; */
+}
+
+.section-2{
+
+    background-color: black;
+    margin: auto;
+    margin-right: 100px;
+}
+
+.section-2-list{
+
+    display: flex;
+    background-color: black;
+}
+
+.section-2-list-li{
+
+    list-style-type: none;
+    margin-left: 22px;
+    background: black;
+}
+
+
+#li-main{
+
+    padding: 6px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 9px;
+    /* background: rgb(235, 242, 245); */
+}
+
+#li-main img{
+
+    width: 14px;
+    height: 13px;
+}
+
+
+
+button:hover{
+
+    color: brown;
+    cursor: pointer;
+
+
+}
+
+.top-next{
+
+    background: #9c5a5a;
+    height: 77px;
+}
+
+.top-next li{
+
+    background-color: #9c5a5a;
+    list-style: none;
+    margin: 30px;
+    font-size: larger;
+    color: white;
+    position: relative;
+}
+
+.top-next ul{
+
+    display: flex;
+    background-color: #9c5a5a;
+    justify-content: flex-end;
+
+}
+
+.top-next a{
+    background: #9c5a5a;
+    color: whitesmoke;
+    text-decoration: none;
+    /* background-color: bisque; */
+
+
+}
+
+a:hover{
+
+    color: grey;
+    cursor: pointer;
+}
+
+.top-next a:hover{
+
+    background-color: bisque;
+    padding: 30px 10px;
+}
+
+.main-1{
+
+    background: grey;
+    height: 450px;
+    width: 100%;
+}
+
+#main-1-h h3{
+    background: #000;
+    font-family: system-ui;
+    font-size: 3.3rem;
+    color: whitesmoke;
+
+
+}
+
+#main-1-h p{
+    background: #000;
+    font-family: cursive;
+    font-size: 1.3rem;
+    color: #be3144;
+
+
+}
+
+#main-1-h{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    height: 700px;
+}
+
+
+#articles{
+
+    height: 770px;
+    /* background-color: #7b7bd2; */
+    background: #45567d;
+}
+
+
+#article-h{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10px; */
+    /* background-color: #7b7bd2; */
+    padding-top: 45px;
+    font-family: cursive;
+    /* border-bottom: 2px solid white; */
+    border-width: 60%;
+    /* border-block: inherit; */
+    /* border-bottom: 2px solid white; */
+    /* border-bottom-width: 3px; */
+    /* border-bottom-style: groove; */
+    /* border-bottom-left-radius: 13px; */
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+    text-decoration-style: unset;
+    text-decoration-thickness: 3px;
+    font-size: 2.0rem;
+    font-family: cursive;
+
+
+}
+
+.article-items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    /* grid-template-columns: repeat(auto-fit,minmax(253px, 2fr)); */
+    grid-gap: 10rem;
+    max-width: 1280px;
+    margin: 0px auto;
+    /* margin-bottom: 5rem; */
+    padding-top: 3rem;
+
+
+}
+
+.article-item{
+    text-decoration: none;
+    color: black;
+    width: 239px;
+    /* background: var(--main-gray); */
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
+    background-color: grey;
+
+
+}
+
+#image{
+
+    width: 239px;
+    height: auto;
+    object-fit: cover;
+
+}
+
+#idpara{
+
+    background-color: grey;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0px;
+    margin-top: -2%;
+
+
+}
+
+
+
+.article-item:hover{
+    border: black;
+    border-style: dashed;
+    color: bisque;
+    
+}
+
+
+.code{
+
+    color: black;
+    transition: color 0.3s ease-out;
+}
+
+#contact-page{
+    background: #303841;
+    color: floralwhite;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* text-align: center; */
+    height: 400px;
+    align-items: center;
+}
+
+
+#article-h2{
+    font-size: 3.3rem;
+    margin: revert;
+
+
+}
+
+#idpara2{
+    font-style: oblique;
+    font-size: large;
+
+
+}
+
+/* #contact-items{
+
+
+} */
+
+
+#contact-items-ul{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.contact-links{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.contact-links-img{
+
+    width: 35%;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 11%;
+
+
+}
+
+.contact-links-text{
+    color: ghostwhite;
+
+
+}
+
+#contact-items-li{
+    list-style-type: none;
+    
+    width: 19%;
+
+
+
+}
+
+#contact-items-li:hover{
+
+    padding-top: 15px;
+    
+}
+
+#footer{
+    /* display: flex; */
+
+    font-family: sans-serif;
+
+    display: flex;
+    background: #303841;
+    border-top: 3px solid red;
+    color: aliceblue;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#footer-img{
+    width: 29%;
+    border-radius: 2px solid grey;
+    border-radius: 92px;
+    /* border-color: blanchedalmond; */
+    border-width: 16px;
+    border-block-style: revert;
+}
+
+
+#article-btn{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+
+
+
+}
+#articles-btn{
+
+    width: 134px;
+    height: 39px;
+    border: 3px solid black;
+    /* border-radius-bottom: 10px;
+    border-top-radius: 10px; */
+    /* border-top-left-radius: 24px; */
+    border-bottom-left-radius: 53px;
+    border-bottom-right-radius: 54px;
+
+
+}
+
+#articles-btn:hover{
+
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: brown;
+    color: whitesmoke;
+    margin-bottom: 10px;
+
+
+}
+
+
+#fav-img{
+
+    background-position-x: 110%;
+    background-position-y: 110%;
+
+
+}
+
+
+
+.bg-love{
+
+    background-color: hotpink;
+}
+
+
+
